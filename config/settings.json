@@ -1,0 +1,8 @@
+{
+  "contentDir": "/content",
+  "datalabRoot": "",
+  "jupyterArgs": [],
+  "nextJupyterPort": 9000,
+  "serverPort": 8080,
+  "socketioPort": 8084
+}

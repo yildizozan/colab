@@ -1,0 +1,23 @@
+{
+  "name": "ipy-rev-proxy",
+  "description": "Google Cloud Datalab Server",
+  "dependencies": {
+    "bunyan": "^1.2.0",
+    "bunyan-rotating-file-stream": "^1.6.0",
+    "http-proxy": "^1.4.3",
+    "socket.io": "^2.1.1",
+    "ws": "1.1.4"
+  },
+  "engines": {
+    "node": "6.x"
+  },
+  "scripts": {
+    "transpile": "./node_modules/typescript/bin/tsc --module commonjs --noImplicitAny --target es6 *.ts externs/*.ts",
+    "start": "node app.js"
+  },
+  "devDependencies": {
+    "@types/node": "^8.10.23",
+    "@types/socket.io": "^1.4.36",
+    "typescript": "2.6.2"
+  }
+}
